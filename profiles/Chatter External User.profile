@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
+        <application>Copado_Trial</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>Getting_Started</application>
         <default>false</default>
         <visible>false</visible>
@@ -6955,6 +6960,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>copado__Deployment__c.Completed_Time__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>copado__Deployment__c.Deployment_Time_Minutes__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>copado__Deployment__c.Start_Time__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>copado__Deployment__c.copado__Build_Task__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -7751,6 +7771,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>copado__Project__c.copado__Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>copado__Promotion__c.Conflict__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -9200,6 +9225,41 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>copado__User_Story__c.Datetime_Completed__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>copado__User_Story__c.Datetime_Deployed_To_Production__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>copado__User_Story__c.Lead_Time_Hours__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>copado__User_Story__c.Lead_Time_Minutes__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>copado__User_Story__c.Number_Of_Components__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>copado__User_Story__c.SCA_Score__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>copado__User_Story__c.SCA_Violations__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>copado__User_Story__c.copado__Acceptance_Criteria_Status__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -9718,6 +9778,21 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__User_Story__c-User Story Layout %28Unmanaged%29</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__User_Story__c-User Story Layout %28Unmanaged%29</layout>
+        <recordType>copado__User_Story__c.copado__Bug</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__User_Story__c-User Story Layout %28Unmanaged%29</layout>
+        <recordType>copado__User_Story__c.copado__Investigation</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__User_Story__c-User Story Layout %28Unmanaged%29</layout>
+        <recordType>copado__User_Story__c.copado__User_Story</recordType>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>false</allowCreate>

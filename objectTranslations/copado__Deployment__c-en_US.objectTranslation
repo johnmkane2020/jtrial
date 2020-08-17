@@ -13,6 +13,18 @@
         <name>copado__Pipeline_Deployment_Modal</name>
     </fieldSets>
     <fields>
+        <label><!-- Completed Time --></label>
+        <name>Completed_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deployment Time (Minutes) --></label>
+        <name>Deployment_Time_Minutes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Time --></label>
+        <name>Start_Time__c</name>
+    </fields>
+    <fields>
         <label><!-- Build Task --></label>
         <name>copado__Build_Task__c</name>
         <relationshipLabel><!-- Deployments --></relationshipLabel>
